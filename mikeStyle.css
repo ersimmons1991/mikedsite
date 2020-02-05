@@ -1,0 +1,152 @@
+html {
+	background-color: #800020;
+}
+
+div#header {
+	background-color: #800020;
+	text-align: center;
+	outline: 4px solid black;
+	outline-offset; 4px;
+}
+div#leftMargin {
+	background-color: #800020;
+	outline: 4px solid black;
+	outline-offset; 4px;
+}
+div#leftMaginLinks {
+	width: 100%;
+	height: 100%;
+	padding-top: 1em;
+	padding-left: 2%;
+}
+div#content {
+	background-color: #800020;
+	overflow: auto;
+	text-indent: 2em;
+	outline: 4px solid black;
+	outline-offset; 4px;
+}
+div#footer {
+	background-color: #800020;
+	text-align: center;
+	outline: 4px solid black;
+	outline-offset; 4px;
+}
+div#gallery {
+	text-align: center;
+	background-color: #8a0303;
+}
+
+a.menu {
+	width: 80%;
+	height: 1.2em;
+	display: block;
+	background-color: gray;
+	text-decoration: none;
+	padding-left: 0.4em;
+	border-left: 0.3em solid #d3d3d3;
+}
+a.menu:active {
+	background-color: gray;
+}
+a.menu:hover {
+	background-color: white;
+	text-decoration: underline;
+	border-left: 0.3em solid #a9a9a9;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	align-content: center;
+}
+
+.galleryContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	align-content: center;
+}
+
+.thumbnail {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+
+.thumbnail img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	width: auto;
+	-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+img.artist {
+	float: left;
+}
+/*
+	Screens sized 800px or more
+*/
+@media screen and (min-width: 800px) {
+div#header {
+	width: 100vw;
+	height: 10vh;
+}
+div#leftMargin {
+	width: 10%;
+	height: 80vh;
+}
+div#content {
+	width: 90%;
+	height: 80vh;
+	overflow: auto;
+}
+div#footer {
+	height: 10vh;
+	width: 100vw;
+}
+div#gallery {
+	margin-left: 2em;
+	margin-top: 2em;
+	padding: 2em;
+	overflow: auto;
+	float: left;
+}
+img.artist {
+	width: 300px;
+	height: 400px;
+}
+}
+/*
+	Screens sized 799px or less 
+*/
+@media screen and (max-width: 799px) {
+div#header {
+	width: 100vw;
+	height: 5vh;
+}
+div#leftMargin {
+	width: 30%;
+	height: 90vh;
+}
+
+div#content {
+	width: 70%;
+	height: 90vh;
+}
+
+div#footer {
+	height: 5vh;
+	width: 100vw;
+}
+}
