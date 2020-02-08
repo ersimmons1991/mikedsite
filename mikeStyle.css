@@ -41,6 +41,7 @@ div#gallery {
 
 a.menu {
 	width: 80%;
+	height: auto;
 	display: block;
 	background-color: gray;
 	text-decoration: none;
