@@ -150,5 +150,8 @@ div#content {
 div#footer {
 	height: 5vh;
 	width: 100vw;
+}	
+a.menu {
+	height: 2.4em;
 }
 }
