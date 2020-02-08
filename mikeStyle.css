@@ -130,10 +130,6 @@ img.artist {
 	width: 300px;
 	height: 400px;
 }
-
-a.menu {
-	height: 1.2em;
-}
 }
 /*
 	Screens sized 799px or less 
@@ -157,7 +153,4 @@ div#footer {
 	height: 5vh;
 	width: 100vw;
 }	
-a.menu {
-	height: 2.4em;
-}
 }
