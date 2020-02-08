@@ -41,7 +41,6 @@ div#gallery {
 
 a.menu {
 	width: 80%;
-	height: 1.2em;
 	display: block;
 	background-color: gray;
 	text-decoration: none;
@@ -129,6 +128,10 @@ div#gallery {
 img.artist {
 	width: 300px;
 	height: 400px;
+}
+
+a.menu {
+	height: 1.2em;
 }
 }
 /*
