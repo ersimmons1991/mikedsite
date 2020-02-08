@@ -46,6 +46,7 @@ a.menu {
 	text-decoration: none;
 	padding-left: 0.4em;
 	border-left: 0.3em solid #d3d3d3;
+	overflow: auto;
 }
 a.menu:active {
 	background-color: gray;
