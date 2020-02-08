@@ -40,9 +40,9 @@ div#gallery {
 }
 
 a.menu {
+	display: block;
 	width: 80%;
 	height: auto;
-	display: block;
 	background-color: gray;
 	text-decoration: none;
 	font-weight: bold;
