@@ -44,10 +44,10 @@ a.menu {
 	height: 1.2em;
 	display: block;
 	background-color: gray;
-	text-decoration: none;
+	text-decoration: bold;
 	padding-left: 0.4em;
 	border-left: 0.3em solid #d3d3d3;
-	overflow: auto;
+	color: white;
 }
 a.menu:active {
 	background-color: gray;
